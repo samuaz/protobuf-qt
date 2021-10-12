@@ -1,3 +1,14 @@
+# Fork
+
+this is a fork from the original project from onto/protobuf-qt
+the idea of this fork is to implement more functionalities to the great work of onto/protobuf-qt like:
+- make it cross platform build make this plugin work for android, ios, etc.
+- rebase on cmake
+- support to easy convert from proto model to qml objects like as interchangeable wrappers. so you can do .toProto() or .toQml
+- migrate to QT6
+- migrate to cmake
+- include all deps needed using cmake fetch content
+
 # Protobuf-Qt
 
 This lib should help with usage of generated sources from Google Protobuf files with Qt and QML.
